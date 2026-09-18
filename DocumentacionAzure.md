@@ -2,7 +2,7 @@
 
 ## Nuevo Ejemplo
 
-![Grafico de entorno Azure](EntornoAzure1.png)
+![Grafico de entorno Azure](imagenes/DTB1.png)
 
 # MI INTERPRETACION 
 
@@ -54,16 +54,16 @@ Graph x: API para trabajar graficos y computacion grafica paralela realizar tare
 
 ## 12. Crear servicio de Azure Databrick
 
-![Grafico2](DataBrick1.png)
+![Grafico2](imagenes/DTB1.png)
 creamos el entorno de trabajo.
 
-![Grafico3](DTB2.png)
+![Grafico3](imagenes/DTB2.png)
 seleccionamos la supcripcion por default que es la de 30 dias gratis 200 dolares.
 
 luego tenemos **Resource Group**
 es para separar el gasto de recursos de una aplicacion y poder segmentar roles para distintos usarios que puede hacer en cada grupo de recursos puedes contener varios recursos como ( red virtual, maquina virtual, base de datos, storage account), tambien separar ambientes Dev Qa Prod.
 
-![Grafico4](DBT3.png)
+![Grafico4](imagenes/DTB3.png)
 **workspace**:
 como buena practica colocamos al final ws. ese sera el nombre del espacio de trabajo podriamos tener espacios de trabajo separados como Dev Prod Qa.
 
@@ -75,7 +75,7 @@ escojemos la opcion hibrida para decirle que trabajaremos en el almacenamiento d
 
 luego en Managed resource Group name databrick lo podria colocar automatico pero le colocamos un nombre. 
 
-![Grafico5](DTB4.png) 
+![Grafico5](imagenes/DTB4.png) 
 
 **NETWORKING**:
 podriamos seleccion si la red puede ser publica le indicamos que no o si ya contamos con una red virtual que indiquemos cual usaremos el cual es la opcion roja de abajo el cual se nos deplegaria mas opciones.
@@ -94,24 +94,24 @@ enable automatic cluster update: si se habilita vamos a tener los recursos de se
 **TAGS**: nos ayuda con la facturacion e informacion que queramos brindar.
 
 
-![Grafico6](DTB5.png) 
+![Grafico6](imagenes/DTB5.png) 
 
 le damos a review + create y esperamos.
 
 
-![Grafico6](DTB7.png)
+![Grafico6](imagenes/DTB7.png)
 
 estas configuraciones se pueden descargar para mantener la ultima version. no se ve en la imagen pero abajo dice download
 
 
-![Grafico6](DBT8.png)
+![Grafico6](imagenes/DTB8.png)
 
 click on launch workspace.
 
 
 ## 13.Gruia por la interfas de Usuario de Azure DataBricks
 
-![Grafico6](DTB9.png)
+![Grafico6](imagenes/DTB9.png)
 
 Este es el workspace para guardar tus archivos como librerias, .sql etc. tenemos nuestro espacio personal y espacio compartido.
 
